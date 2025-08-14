@@ -130,9 +130,10 @@ export default function handler(req, res) {
       service: 'Pomodoro Timer API',
       status: 'running',
       version: '1.0.0',
+      message: 'API is working correctly!',
       endpoints: {
         webhook: '/api/webhook',
-        health: '/api/health'
+        usage: 'MentraOS will POST events to this endpoint'
       }
     });
   }
