@@ -1,0 +1,6 @@
+{
+  "name": "pomodoro-mentra-api",
+  "version": "1.0.0",
+  "description": "Pomodoro Timer API for MentraOS",
+  "main": "api/webhook.js"
+}
